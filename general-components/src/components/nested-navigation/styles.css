@@ -1,0 +1,18 @@
+.nested-nav-container {
+  min-height: 100vh;
+  width: 350px;
+  background: #6495ed;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.menu-list-container {
+  list-style: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
