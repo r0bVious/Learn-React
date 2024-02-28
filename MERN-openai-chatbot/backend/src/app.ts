@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cookieParser(process.env.COOKIE_SECRET));
 
 //remove in production
-app.use(morgan("dev")); //npm start dev
+app.use(morgan("dev")); //npm run dev - NOT START
 
 app.use("/api/v1", appRouter);
 
